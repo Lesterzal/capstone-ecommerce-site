@@ -1,0 +1,27 @@
+.about-us {
+  padding: 90px 0;
+  background: #ddd;
+}
+
+.about {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-text {
+  width: 1000px;
+}
+
+.about h2 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
