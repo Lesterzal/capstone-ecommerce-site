@@ -1,0 +1,15 @@
+.buy-button {
+  background-color: black;
+  color: white;
+  border: black;
+  height: 30px;
+  width: 120px;
+  border-radius: 18px;
+  vertical-align: top;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.buy-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}

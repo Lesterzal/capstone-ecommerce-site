@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
+
+body {
+  background-color: whitesmoke;
+}
+
+.h {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 5rem;
+  font-weight: 600;
+  padding-top: 120px;
+}
+
+.h h1 {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.ac p {
+  font-size: 16px;
+  padding-top: 15px;
+  border-top: ridge;
+}
+
+.price {
+  font-size: 14px;
+  padding-bottom: 16px;
+}
+
+.ac-center {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 80px;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-bottom: 60px;
+}
+
+.ac {
+  text-align: center;
+  padding-bottom: 20px;
+  transition: all 500ms ease-in-out;
+  background-color: white;
+  border-style: ridge;
+}
+
+.ac:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ac .img-cover {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.ac img {
+  transition: all 500ms ease-in-out;
+  height: auto;
+  max-width: 100%;
+}
+
+.ac:hover img {
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width: 567px) {
+  .h {
+    font-size: 32px;
+  }
+}
+
+/* Footer */
+
+.footer {
+  background: #000;
+  padding: 40px 0px;
+  font-family: "Play", sans-serif;
+  text-align: center;
+}
+
+.footer .row {
+  width: 100%;
+  color: gray;
+  font-size: 0.8em;
+  padding-top: 10px;
+}
+
+.footer .row a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.footer .row a:hover {
+  color: rgb(201, 201, 201);
+}
+
+.footer .row ul {
+  width: 100%;
+}
+
+.footer .row ul li {
+  display: inline-block;
+  margin: 0px 30px;
+}

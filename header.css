@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fenix&display=swap");
 
 :root {
-  --main-color: #207178;
+  --main-color: black;
 }
 * {
   padding: 0;
@@ -15,7 +15,7 @@
 header {
   width: 100%;
   background-color: white;
-  padding: 15px 50px;
+  padding: 13px 50px;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -25,12 +25,12 @@ header {
 }
 
 header .logo img {
-  width: 40px;
+  width: 30px;
   margin-top: -5px;
 }
 
 header .logo a {
-  font-size: 38px;
+  font-size: 32px;
   font-family: "Fenix", serif;
   text-decoration: none;
   text-transform: capitalize;
@@ -52,5 +52,9 @@ header ul li a {
   color: black;
   text-transform: uppercase;
   transform: 0.4s;
-  font-size: 22px;
+  font-size: 18px;
+}
+
+.navigation a {
+  color: black;
 }
